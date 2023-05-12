@@ -16,19 +16,10 @@
     <title>Hire Me</title>
   </head>
   <body>
+
     <!--side bar-->
     <div class="sidebar">
       <h1 class="logo">HireMe</h1>
-      <!--Main-->
-    <div class="main">
-      <div class="main-header">
-        <ion-icon class="menu-bar" name="menu-outline"></ion-icon>
-        <div class="search">
-          <input type="text" placeholder="Search your best job here...">
-          <button class="btn-search"><ion-icon name="seacrh-outline"></ion-icon></button>
-        </div>
-      </div>
-    </div>
       <div class="menu">
         <a href="#"><ion-icon name="home-outline"></ion-icon>Home</a>
         <a href="#"><ion-icon name="newspaper-outline"></ion-icon>Find Jobs</a>
@@ -39,15 +30,75 @@
         <a href="#"><ion-icon name="mail-unread-outline"></ion-icon>Messages</a>
         <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
       </div>
+      
       <!-- Adding Profile-->
-    <div class="profile">
-      <img class="profile-img" src="images/woman.png">
-      <div class="profile-name">
-        <h4>Your Name</h4>
-        <p> Your Job</p>
+      <div class="profile">
+        <img class="profile-img" src="images/woman.png">
+        <div class="profile-name">
+          <h4>Your Name</h4>
+          <p> Your Job</p>
+        </div>
       </div>
     </div>
 
+     <!--Main-->
+    <div class="main">
+      <div class="main-header">
+        <ion-icon class="menu-bar" name="menu-outline"></ion-icon>
+        <div class="search">
+          <input type="text" placeholder="Search your best job here...">
+          <button class="btn-search"><ion-icon name="search-outline"></ion-icon></button>
+        </div>
+      </div>
+      <div class="filter-wrapper">
+          <p>Recommendation</p>
+          <div class="filter">
+              <button class="btn-filter">Data Science</button>
+              <button class="btn-filter">Data Engineer</button>
+              <button class="btn-filter">Data Analyst</button>
+              <button class="btn-filter">Data Visualization</button>
+              <button class="btn-filter">CRM Analyst</button>
+          </div>
+      </div>
+      <div class="sort">
+        <p>Sort</p>
+        <div class="sort-list">
+            <select>
+              <option value="0">All</option>
+              <option value="1">Newest Post</option>
+              <option value="2">Oldest Post</option>
+              <option value="3">Most Relevant</option>
+              <option value="4">Highest Paid</option>
+            </select>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="card">
+          <div class="card-left blue-bg">
+            <img src="images\goolge.png" alt="">
+          </div>
+          <div class="card-center">
+            <h3>Google</h3>
+            <p class="card-detail">Data Science, Data Engineer</p>
+            <p class="card-loc"><ion-icon name="location-outline"></ion-icon>Abcd Street</p>
+            <div class="card-sub">
+              <p><ion-icon name="location-outline"></ion-icon>1 mins ago</p>
+              <p><ion-icon name="hourglass-outline"></ion-icon>Full-time</p>
+              <p><ion-icon name="people-outline"></ion-icon>200 Applicants</p>
+            </div>
+          </div>
+          <div class="card-right">
+            <div class="card-tag">
+              <h5>division</h5>
+              <a href="#">Data Engineer</a>
+            </div>
+            <div class="card-salary">
+              <p><b>$350k</b> <span>/ year</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     
 
 
