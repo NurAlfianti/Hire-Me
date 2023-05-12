@@ -57,4 +57,40 @@ body {
   text-decoration: none;
 }
 
+.menu ion-icon {
+  margin-right: 0.5rem;
+}
+
+.menu a:hover {
+  color: var(--secondaryColor);
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: var(--whiteColor);
+  color: var(--fontColor);
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) opx 2px 8px 0px;
+  cursor: pointer;
+}
+
+.profile:hover {
+  background-color: var(--secondaryColor);
+}
+
+.profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.profile-name p {
+  font-size: 12px;
+}
+
 /* baru nonton sampe menit ke 14.12*/
