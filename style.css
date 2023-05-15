@@ -211,6 +211,32 @@ body {
   overflow: auto;
 }
 
+.Datadiri {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 3%;
+  margin: 0 1%;
+  background-color: var(--softPurple);
+  line-height: 1.5;
+  gap: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  min-height: 50px;
+}
+
+.Datadiri-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px; /* atur lebar maksimum konten agar tidak terlalu lebar */
+  margin: 0 auto;
+}
+
 .card {
   display: flex;
   flex-wrap: wrap;
@@ -387,7 +413,6 @@ body {
   color: var(--primaryColor);
 }
 
-
 .btn-save {
   background-color: var(--secondaryColor);
   border: none;
@@ -398,7 +423,7 @@ body {
 
 .btn-save:hover {
   border: 1px solid var(--secondaryColor);
-  background-color:transparent;
+  background-color: transparent;
 }
 
 .btn-saved {
@@ -412,7 +437,7 @@ body {
 
 .btn-saved:hover {
   border: 1px solid var(--secondaryColor);
-  background-color:transparent;
+  background-color: transparent;
 }
 
 .sidebar.active {
@@ -473,4 +498,3 @@ a {
   color: inherit; /* menggunakan warna default dari parent element */
   text-decoration: none; /* menghilangkan underline */
 }
-
