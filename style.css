@@ -371,6 +371,23 @@ body {
   color: var(--primaryColor);
 }
 
+.btn-applyed {
+  opacity: 50%;
+  background-color: var(--primaryColor);
+  color: var(--whiteColor);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn-applyed:hover {
+  border: 1px solid var(--primaryColor);
+  background-color: transparent;
+  color: var(--primaryColor);
+}
+
+
 .btn-save {
   background-color: var(--secondaryColor);
   border: none;
@@ -381,7 +398,21 @@ body {
 
 .btn-save:hover {
   border: 1px solid var(--secondaryColor);
-  background-color: transparent;
+  background-color:transparent;
+}
+
+.btn-saved {
+  opacity: 50%;
+  background-color: var(--secondaryColor);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn-saved:hover {
+  border: 1px solid var(--secondaryColor);
+  background-color:transparent;
 }
 
 .sidebar.active {
@@ -443,4 +474,3 @@ a {
   text-decoration: none; /* menghilangkan underline */
 }
 
-/* baru nonton sampe menit ke 14.12*/
