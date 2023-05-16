@@ -1,195 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
 
-    <!-- adding font-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
 
-    <title>Hire Me</title>
-  </head>
-  <body>
-   <!--side bar-->
-   <div class="sidebar">
+  <!-- adding font-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+
+  <title>Hire Me</title>
+</head>
+
+<body>
+  <!--side bar-->
+  <div class="sidebar">
     <h1 class="logo">HireMe</h1>
     <div class="menu">
       <a href="index.html"><ion-icon name="home-outline"></ion-icon>Home</a>
       <a href="404.html"><ion-icon name="newspaper-outline"></ion-icon>Find Jobs</a>
-      <a href="404.html"
-        ><ion-icon name="stats-chart-outline"></ion-icon>Performance</a
-      >
-      <a href="bookmark.html"
-        ><ion-icon name="bookmarks-outline"></ion-icon>Bookmarks</a
-      >
+      <a href="404.html"><ion-icon name="stats-chart-outline"></ion-icon>Performance</a>
+      <a href="bookmark.html"><ion-icon name="bookmarks-outline"></ion-icon>Bookmarks</a>
       <a href="404.html"><ion-icon name="mail-unread-outline"></ion-icon>Messages</a>
-      <a href="aboutUs.html"
-        ><ion-icon name="information-circle-outline"></ion-icon>About Us</a
-      >
+      <a href="aboutUs.html"><ion-icon name="information-circle-outline"></ion-icon>About Us</a>
     </div>
 
-      <!-- Adding Profile-->
-      <div class="profile">
-        <img class="profile-img" src="images/woman.png" />
-        <div class="profile-name">
-          <a style="text-decoration: none"  href="profile.html">Nur Alfi</a>
-          <p>UI Designer</p>
-        </div>
+    <!-- Adding Profile-->
+    <div class="profile">
+      <img class="profile-img" src="images/woman.png" />
+      <div class="profile-name">
+        <a style="text-decoration: none" href="profile.html">Nur Alfi</a>
+        <p>UI Designer</p>
       </div>
     </div>
+  </div>
 
-    <!--Main-->
-    <div class="main">
-      <div class="main-header">
-        <ion-icon class="menu-bar" name="menu-outline"></ion-icon>
-        <div class="search">
-          <input type="text" placeholder="Search your best job here..." />
-          <button class="btn-search">
-            <ion-icon name="search-outline"></ion-icon>
-          </button>
-        </div>
-      </div>
-      <div class="filter-wrapper">
-        <p>Recommendation</p>
-        <div class="filter">
-          <button class="btn-filter">Data Science</button>
-          <button class="btn-filter">Data Engineer</button>
-          <button class="btn-filter">Data Analyst</button>
-          <button class="btn-filter">Data Visualization</button>
-          <button class="btn-filter">CRM Analyst</button>
-        </div>
-      </div>
-      <div class="sort">
-        <p>Sort</p>
-        <div class="sort-list">
-          <select>
-            <option value="0">All</option>
-            <option value="1">Newest Post</option>
-            <option value="2">Oldest Post</option>
-            <option value="3">Most Relevant</option>
-            <option value="4">Highest Paid</option>
-          </select>
-        </div>
-      </div>
-      <div class="wrapper">
-        <div class="card">
-          <div class="card-left blue-bg">
-            <img src="images\goolge.png" alt="" />
-          </div>
-          <div class="card-center">
-            <h3>Google</h3>
-            <p class="card-detail">Data Science, Data Engineer</p>
-            <p class="card-loc">
-              <ion-icon name="location-outline"></ion-icon>Abcd Street
-            </p>
-            <div class="card-sub">
-              <p><ion-icon name="location-outline"></ion-icon>1 mins ago</p>
-              <p><ion-icon name="hourglass-outline"></ion-icon>Full-time</p>
-              <p><ion-icon name="people-outline"></ion-icon>200 Applicants</p>
-            </div>
-          </div>
-          <div class="card-right">
-            <div class="card-tag">
-              <h5>division</h5>
-              <a href="#">Data Engineer</a>
-            </div>
-            <div class="card-salary">
-              <p><b>$350k</b> <span>/ year</span></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-left red-bg">
-            <img src="images\youtube.png" alt="" />
-          </div>
-          <div class="card-center">
-            <h3>Youtube</h3>
-            <p class="card-detail">Data Analyst, Product Analyst</p>
-            <p class="card-loc">
-              <ion-icon name="location-outline"></ion-icon>Abcd Street
-            </p>
-            <div class="card-sub">
-              <p><ion-icon name="location-outline"></ion-icon>1 hour ago</p>
-              <p><ion-icon name="hourglass-outline"></ion-icon>Part-Time</p>
-              <p><ion-icon name="people-outline"></ion-icon>250 Applicants</p>
-            </div>
-          </div>
-          <div class="card-right">
-            <div class="card-tag">
-              <h5>division</h5>
-              <a href="#">Engineer, Product</a>
-            </div>
-            <div class="card-salary">
-              <p><b>$200k</b> <span>/ year</span></p>
-            </div>
-          </div>
-        </div>
+  <!--Main-->
+  <div class="main">
+    <div class="main-header">
+      <ion-icon class="menu-bar" name="menu-outline"></ion-icon>
+      <!-- <div class="search">
+        <input type="text" placeholder="Search your best job here..." />
+        <button class="btn-search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div> -->
+    </div>
+    <!-- <div class="filter-wrapper">
+      <p>Recommendation</p>
+      <div class="filter">
+        <button class="btn-filter">Data Science</button>
+        <button class="btn-filter">Data Engineer</button>
+        <button class="btn-filter">Data Analyst</button>
+        <button class="btn-filter">Data Visualization</button>
+        <button class="btn-filter">CRM Analyst</button>
       </div>
     </div>
-
-    <!-- Right Section -->
-    <div class="detail">
-      <ion-icon class="close-detail" name="close-outline"></ion-icon>
-      <div class="detail-header">
-        <img src="images/goolge.png" alt="" />
-        <h2>Google</h2>
-        <p>Data Science</p>
+    <div class="sort">
+      <p>Sort</p>
+      <div class="sort-list">
+        <select>
+          <option value="0">All</option>
+          <option value="1">Newest Post</option>
+          <option value="2">Oldest Post</option>
+          <option value="3">Most Relevant</option>
+          <option value="4">Highest Paid</option>
+        </select>
       </div>
-      <hr class="divider" />
-      <div class="detail-desc">
-        <div class="about">
-          <h4>About Company</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            sunt asperiores expedita iste quis. Rerum recusandae odio, repellat
-            vel libero sunt, quidem, dolorum reprehenderit dolores provident
-            labore ratione sequi quaerat.
+    </div> -->
+    <div class="wrapper">
+      <div class="card">
+        <div class="card-left blue-bg">
+          <img src="images\goolge.png" alt="" />
+        </div>
+        <div class="card-center">
+          <h3>Google</h3>
+          <p class="card-detail">Data Science, Data Engineer</p>
+          <p class="card-loc">
+            <ion-icon name="location-outline"></ion-icon>Abcd Street
           </p>
-          <a href="#">Read More</a>
+          <div class="card-sub">
+            <p><ion-icon name="location-outline"></ion-icon>1 mins ago</p>
+            <p><ion-icon name="hourglass-outline"></ion-icon>Full-time</p>
+            <p><ion-icon name="people-outline"></ion-icon>200 Applicants</p>
+          </div>
         </div>
-        <hr class="divider" />
-        <div class="qualification">
-          <h4>Qualification</h4>
-          <ul>
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est
-              reprehenderit exercitationem quidem veritatis pariatur assumenda
-              molestias repudiandae beatae! Officia, voluptate nostrum sapiente
-              voluptatibus aspernatur consequatur ipsa accusantium?
-              Voluptatibus, necessitatibus!
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-              modi veritatis fuga! Iste, explicabo placeat. Ipsum, veritatis
-              vitae saepe, sit velit provident voluptas temporibus aperiam
-              perspiciatis, fugit voluptate commodi consequuntur?
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              quos saepe corrupti nulla voluptatem ratione similique dolores
-              voluptate dolore illum animi necessitatibus dolor placeat maiores,
-              pariatur adipisci soluta! Accusamus, ratione.
-            </li>
-          </ul>
+        <div class="card-right">
+          <div class="card-tag">
+            <h5>division</h5>
+            <a href="#">Data Engineer</a>
+          </div>
+          <div class="card-salary">
+            <p><b>$350k</b> <span>/ year</span></p>
+          </div>
         </div>
       </div>
-      <hr class="divider" />
-      <div class="detail-btn">
-        <button class="btn-apply" onclick="ubahOpacityApply()">Apply Now</button>
-        <button class="btn-saved" onclick="ubahOpacitySaved()">Save Job</button>
+
+      <div class="card">
+        <div class="card-left red-bg">
+          <img src="images\youtube.png" alt="" />
+        </div>
+        <div class="card-center">
+          <h3>Youtube</h3>
+          <p class="card-detail">Data Analyst, Product Analyst</p>
+          <p class="card-loc">
+            <ion-icon name="location-outline"></ion-icon>Abcd Street
+          </p>
+          <div class="card-sub">
+            <p><ion-icon name="location-outline"></ion-icon>1 hour ago</p>
+            <p><ion-icon name="hourglass-outline"></ion-icon>Part-Time</p>
+            <p><ion-icon name="people-outline"></ion-icon>250 Applicants</p>
+          </div>
+        </div>
+        <div class="card-right">
+          <div class="card-tag">
+            <h5>division</h5>
+            <a href="#">Engineer, Product</a>
+          </div>
+          <div class="card-salary">
+            <p><b>$200k</b> <span>/ year</span></p>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
+
+  <!-- Right Section -->
+  <div class="detail">
+    <ion-icon class="close-detail" name="close-outline"></ion-icon>
+    <div class="detail-header">
+      <img src="images/goolge.png" alt="" />
+      <h2>Google</h2>
+      <p>Data Science</p>
+    </div>
+    <hr class="divider" />
+    <div class="detail-desc">
+      <div class="about">
+        <h4>About Company</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          sunt asperiores expedita iste quis. Rerum recusandae odio, repellat
+          vel libero sunt, quidem, dolorum reprehenderit dolores provident
+          labore ratione sequi quaerat.
+        </p>
+        <a href="#">Read More</a>
+      </div>
+      <hr class="divider" />
+      <div class="qualification">
+        <h4>Qualification</h4>
+        <ul>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est
+            reprehenderit exercitationem quidem veritatis pariatur assumenda
+            molestias repudiandae beatae! Officia, voluptate nostrum sapiente
+            voluptatibus aspernatur consequatur ipsa accusantium?
+            Voluptatibus, necessitatibus!
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            modi veritatis fuga! Iste, explicabo placeat. Ipsum, veritatis
+            vitae saepe, sit velit provident voluptas temporibus aperiam
+            perspiciatis, fugit voluptate commodi consequuntur?
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            quos saepe corrupti nulla voluptatem ratione similique dolores
+            voluptate dolore illum animi necessitatibus dolor placeat maiores,
+            pariatur adipisci soluta! Accusamus, ratione.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr class="divider" />
+    <div class="detail-btn">
+      <button class="btn-apply" onclick="ubahOpacityApply()">Apply Now</button>
+      <button class="btn-saved" onclick="ubahOpacitySaved()">Save Job</button>
+    </div>
+  </div>
 </body>
 <!-- adding icon -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <!-- adding library jquery-->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="app.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!-- adding library jquery-->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="app.js"></script>
+
 </html>

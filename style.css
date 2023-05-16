@@ -233,7 +233,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 200px; /* atur lebar maksimum konten agar tidak terlalu lebar */
+  max-width: 200px;
+  /* atur lebar maksimum konten agar tidak terlalu lebar */
   margin: 0 auto;
 }
 
@@ -529,6 +530,7 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+
   .card-loc,
   .card-sub,
   .card-tag {
@@ -537,6 +539,8 @@ body {
 }
 
 a {
-  color: inherit; /* menggunakan warna default dari parent element */
-  text-decoration: none; /* menghilangkan underline */
+  color: inherit;
+  /* menggunakan warna default dari parent element */
+  text-decoration: none;
+  /* menghilangkan underline */
 }

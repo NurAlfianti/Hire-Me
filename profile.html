@@ -1,96 +1,84 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
 
-    <!-- adding font-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
 
-    <title>Hire Me</title>
-  </head>
-  <body>
-   <!--side bar-->
-   <div class="sidebar">
+  <!-- adding font-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+
+  <title>Hire Me</title>
+</head>
+
+<body>
+  <!--side bar-->
+  <div class="sidebar">
     <h1 class="logo">HireMe</h1>
     <div class="menu">
       <a href="index.html"><ion-icon name="home-outline"></ion-icon>Home</a>
       <a href="404.html"><ion-icon name="newspaper-outline"></ion-icon>Find Jobs</a>
-      <a href="404.html"
-        ><ion-icon name="stats-chart-outline"></ion-icon>Performance</a
-      >
-      <a href="bookmark.html"
-        ><ion-icon name="bookmarks-outline"></ion-icon>Bookmarks</a
-      >
+      <a href="404.html"><ion-icon name="stats-chart-outline"></ion-icon>Performance</a>
+      <a href="bookmark.html"><ion-icon name="bookmarks-outline"></ion-icon>Bookmarks</a>
       <a href="404.html"><ion-icon name="mail-unread-outline"></ion-icon>Messages</a>
-      <a href="aboutUs.html"
-        ><ion-icon name="information-circle-outline"></ion-icon>About Us</a
-      >
+      <a href="aboutUs.html"><ion-icon name="information-circle-outline"></ion-icon>About Us</a>
     </div>
-      </div>
 
-      <!-- Adding Profile-->
-      <div class="profile">
-        <img class="profile-img" src="images/woman.png" />
-        <div class="profile-name">
-          <a style="text-decoration: none"  href="profile.html">Nur Alfi</a>
-          <p>UI Designer</p>
+    <!-- Adding Profile-->
+    <div class="profile">
+      <img class="profile-img" src="images/woman.png" />
+      <div class="profile-name">
+        <a style="text-decoration: none" href="profile.html">Nur Alfi</a>
+        <p>UI Designer</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Main-->
+  <div class="main">
+    <div class="main-header">
+      <ion-icon class="menu-bar" name="menu-outline"></ion-icon>
+    </div>
+    <img class="Datadiri-img" src="images/woman.png" />
+    <div class="rowprofile">
+      <form action="">
+        <h2>My Profile</h2>
+        <div class="inputBox">
+          <input type="text" placeholder="Nur Alfi">
         </div>
-      </div>
+        <div class="inputBox">
+          <input type="email" placeholder="NurAl@gmail.com">
+        </div>
+        <div class="inputBox">
+          <input type="text" placeholder="West Jakarta">
+        </div>
+        <div class="inputBox">
+          <input type="text" placeholder="Engineer">
+        </div>
+        <div class="form">
+          <h3>Upload your CV/Resume</h3>
+          <form name="from_upload">
+            <input type="file" placeholder="Upload CV/Resume">
+          </form>
+        </div>
+        <!-- <div class="inputBox"> -->
+        <input type="submit" value="Save" class="btn-input">
+        <!-- </div> -->
+      </form>
     </div>
+  </div>
+</body>
 
-    <!--Main-->
-    <div class="main">
-      <div class="main-header">
-        <ion-icon class="menu-bar" name="menu-outline"></ion-icon>
-      </div>
-        <img class="Datadiri-img" src="images/woman.png"/>
-        <div class="rowprofile">
-            <form action="">
-                <h2>My Profile</h2>
-                <div class="inputBox">
-                    <input type="text" placeholder="Nur Alfi">
-                </div>
-                <div class="inputBox">
-                    <input type="email" placeholder="NurAl@gmail.com">
-                </div>
-                <div class="inputBox">
-                    <input type="text" placeholder="West Jakarta">
-                </div>
-                <div class="inputBox">
-                    <input type="text" placeholder="Engineer">
-                </div>
-                <div class="form">
-                  <h3>Upload your CV/Resume</h3>
-                  <form name="from_upload">
-                    <input type="file" placeholder="Upload CV/Resume">
-                  </form>
-                </div>
-                <!-- <div class="inputBox"> -->
-                <input type="submit" value="Save" class="btn-input">
-                <!-- </div> -->
-              </form>
-          </div>
-    </div>
-  </body>
+<!-- adding icon -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-  <!-- adding icon -->
-  <script
-    type="module"
-    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-  ></script>
-  <script
-    nomodule
-    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-  ></script>
+<!-- adding library jquery-->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="app.js"></script>
 
-  <!-- adding library jquery-->
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-  <script src="app.js"></script>
 </html>

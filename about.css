@@ -14,6 +14,7 @@
   --softYellow: #fff5cc;
   --softRed: #ffcbc8;
 }
+
 .container5 {
   width: calc(100% - 20% - 25%);
   min-height: 100%;
@@ -142,40 +143,68 @@
   animation: shinyy 4s ease 0s infinite;
 }
 
+.sidebar {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: var(--primaryColor);
+  color: var(--whiteColor);
+  position: fixed;
+  left: 0;
+}
+
+.sidebar.active {
+  display: flex;
+  width: 220px;
+  z-index: 100;
+}
+
 @-webkit-keyframes shinyy {
   from {
     opacity: 0;
     left: -250%;
   }
+
   50% {
     opacity: 0.3;
   }
+
   to {
     opacity: 0;
     left: 550%;
   }
 }
+
 @-moz-keyframes shinyy {
   from {
     opacity: 0;
     left: -250%;
   }
+
   50% {
     opacity: 0.3;
   }
+
   to {
     opacity: 0;
     left: 550%;
   }
 }
+
 @keyframes shinyy {
   from {
     opacity: 0;
     left: -250%;
   }
+
   50% {
     opacity: 0.3;
   }
+
   to {
     opacity: 0;
     left: 550%;
@@ -200,22 +229,10 @@
     background-color: #f9dff2;
   }
 
-  .sidebar {
-    width: 20%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 2rem;
-    background-color: var(--primaryColor);
-    color: var(--whiteColor);
-    position: fixed;
-    left: 0;
-  }
 
-  .sidebar.show {
-    transform: translateX(-20px);
+
+  .sidebar {
+    display: none;
   }
 
   .logofr .logo {
