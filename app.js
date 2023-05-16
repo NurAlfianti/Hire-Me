@@ -1,3 +1,5 @@
+
+// buka tutup detail
 $(".card").on("click", function () {
     $(".detail").addClass("active");
 });
@@ -6,13 +8,37 @@ $(".close-detail").on("click", function () {
     $(".detail").removeClass("active")
 });
 
+// buka tutup side bar
 $(".menu-bar").on("click", function () {
     $(".sidebar").addClass("active")
 })
 
-$(".logo").on("click", function () {
+$(".sidebar").on("click", function () {
     $(".sidebar").removeClass("active")
 });
+
+$(".wrapper").on("click", function () {
+    $(".sidebar").removeClass("active")
+});
+
+$(".search").on("click", function () {
+    $(".sidebar").removeClass("active")
+});
+
+$(".filter-wrapper").on("click", function () {
+    $(".sidebar").removeClass("active")
+});
+
+$(".kontentk").on("click", function () {
+    $(".sidebar").removeClass("active")
+});
+
+$(".rowprofile").on("click", function () {
+    $(".sidebar").removeClass("active")
+});
+
+
+
 
 const apply = document.querySelector(".btn-apply");
 
@@ -39,6 +65,8 @@ function ubahOpacitySaved() {
     saved.style.opacity = "100%"
 }
 
+
+// filter
 const filterButton = document.querySelector("#filter").children;
 const item = document.querySelector(".wrapper").children;
 
