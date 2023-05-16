@@ -18,6 +18,7 @@ const apply = document.querySelector(".btn-apply");
 
 function ubahOpacityApply(){
     apply.style.opacity = "50%"
+    alert("You Have Been Apply to this Job");
 }
 
 const save = document.querySelector(".btn-save");
