@@ -61,12 +61,13 @@
       </div>
       <div class="filter-wrapper">
         <p>Recommendation</p>
-        <div class="filter">
-          <button class="btn-filter">Data Science</button>
-          <button class="btn-filter">Data Engineer</button>
-          <button class="btn-filter">Data Analyst</button>
-          <button class="btn-filter">Data Visualization</button>
-          <button class="btn-filter">CRM Analyst</button>
+        <div class="filter" id="filter">
+          <button class="btn-filter" data-target="All">All</button>
+          <button class="btn-filter" data-target="Data Science">Data Science</button>
+          <button class="btn-filter" data-target="Data Engineer">Data Engineer</button>
+          <button class="btn-filter" data-target="Data Analyst">Data Analyst</button>
+          <button class="btn-filter" data-target="Data Visualization">Data Visualization</button>
+          <button class="btn-filter" data-target="UI UX Designer">UI UX Designer</button>
         </div>
       </div>
       <div class="sort">
@@ -82,7 +83,7 @@
         </div>
       </div>
       <div class="wrapper">
-        <div class="card">
+        <div class="card" data-id="Data Science">
           <div class="card-left blue-bg">
             <img src="images\goolge.png" alt="" />
           </div>
@@ -109,7 +110,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-id="Data Analyst">
           <div class="card-left yellow-bg">
             <img src="images\tiktok.png" alt="" />
           </div>
@@ -136,7 +137,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-id="Data Analyst">
           <div class="card-left red-bg">
             <img src="images\youtube.png" alt="" />
           </div>
@@ -163,7 +164,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-id="UI UX Designer">
           <div class="card-left purple-bg">
             <img src="images\apple.png" alt="" />
           </div>
@@ -190,7 +191,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-id="Data Analyst">
           <div class="card-left red-bg">
             <img src="images\shopee.png" alt="" />
           </div>

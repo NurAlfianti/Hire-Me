@@ -39,3 +39,26 @@ function ubahOpacitySaved(){
     saved.style.opacity = "100%"
 }
 
+const filterButton = document.querySelector("#filter").children;
+const item = document.querySelector(".wrapper").children;
+
+for (let i=0; i < filterButton.length; i++){
+    filterButton[i].addEventListener("click", function(){
+        for (let j = 0; j <filterButton.length; j++){
+            filterButton[j].classList.remove("active")
+        }
+        this.classList.add("active");
+        const target = this.getAttribute("data-target")
+
+        for (let k = 0; k < item.length; k++) {
+            item[k].style.display = "none";
+            if (target == item[k].getAttribute("data-id")){
+                item[k].style.display = "flex";
+            }
+            if (target == "All") {
+                item[k].style.display = "flex";
+            }
+        }
+
+    })
+}
